@@ -137,7 +137,7 @@ GREYBLUE = (102, 153, 153)
 size = (400, 500)
 screen = pygame.display.set_mode(size)
 
-pygame.display.set_caption('BEST Tetris Game')
+pygame.display.set_caption('BEST Tetris Game!')
 
 done = False
 clock = pygame.time.Clock()
