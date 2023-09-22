@@ -45,7 +45,7 @@ class TestBinarySearch(unittest.TestCase):
         item, expected_index = 9887, 990
 
         start_time = time.time()
-        binary_search_index = bs.search_iterative(list_with_1000_items, item) # => None
+        binary_search_index = bs.search_iterative(list_with_1000_items, item)  # => None
         bs_time = time.time() - start_time
 
         start_time = time.time()
@@ -60,7 +60,7 @@ class TestBinarySearch(unittest.TestCase):
         item, expected_index = 55, 10
 
         start_time = time.time()
-        binary_search_index = bs.search_iterative(list_with_1000_items, item) # => None
+        binary_search_index = bs.search_iterative(list_with_1000_items, item)  # => None
         bs_time = time.time() - start_time
 
         start_time = time.time()
